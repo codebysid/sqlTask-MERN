@@ -1,0 +1,112 @@
+#root {
+  margin: 0;
+  padding: 0;
+}
+/* 
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+} */
+
+.empAndDepBtnDiv{
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2vw;
+  height: 100vh;
+  width: 100vw;
+}
+
+.empAndDepBtnDiv > button{
+  height: fit-content;
+  font-size: 2vw;
+  padding: 1vw;
+  width: 18vw;
+
+}
+
+.addDiv>form{
+  display: flex ;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column wrap;
+  gap:1vw;
+  height: 100vh;
+  width: 100%;
+}
+
+
+.addDiv>form>input{
+  font-size: 1vw;
+  border: none;
+  outline: none;
+  padding: 1vw;
+  border-radius: 1vw;
+}
+
+.msgDiv {
+  color: white;
+}
+
+.queryDiv{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-flow: column wrap;
+  gap: 1vw;
+  font-size: 2vw;
+}
+
+.App{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.listDiv{
+  display: flex;
+  gap: 1vw;
+  height: fit-content;
+  width: 50%;
+}
+.list{
+  border: 0.3vw solid black;
+  width: 20vw;
+}
+.list>span{
+  font-weight: bolder;
+  font-size: 1.2vw;
+}
